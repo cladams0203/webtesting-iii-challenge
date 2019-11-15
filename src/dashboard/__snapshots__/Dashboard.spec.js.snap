@@ -7,11 +7,13 @@ exports[`Dashboard Snapshot 1`] = `
   >
     <div
       class="led green-led"
+      data-testid="display1"
     >
       Unlocked
     </div>
     <div
       class="led green-led"
+      data-testid="display2"
     >
       Open
     </div>
