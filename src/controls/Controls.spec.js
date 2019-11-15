@@ -30,7 +30,6 @@ test('Button text reflects state', () => {
     lockbutton2 === false ? 
     expect(button2.textContent).toMatch(/open gate/i) :
     expect(button2.textContent).toMatch(/close gate/i)
-
 })
 
 
