@@ -44,5 +44,6 @@ test('checking button functionality', () => {
         
     })
      expect(wrapper.getByTestId('button1').textContent).toMatch(/unlock gate/i)
+     expect(wrapper.getByTestId('button2')).toHaveProperty('disabled')
     
 })
