@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display Snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="display panel"
+  >
+    <div
+      class="led green-led"
+      data-testid="display1"
+    >
+      Unlocked
+    </div>
+    <div
+      class="led green-led"
+      data-testid="display2"
+    >
+      Open
+    </div>
+  </div>
+</DocumentFragment>
+`;
